@@ -8,7 +8,7 @@ html {
   --main:         #326273;    /* main color */
   --main-dim:     #385c70;    /* dimmed version of main color */
   --text:         #2B323B;
-  --grey1:        #5F5E58;
+  --grey1:        #0c0c0b;
   --grey2:        #8D897C;
   --grey3:        #B4B3A7;
   --grey4:        #ffffff;
@@ -536,10 +536,25 @@ svg {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+.landing-title {
+  left: 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.landing-title h1 {
+  font-size: 3rem;
+}
+.highlight-title {
+  color: $primary-color;
+  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+}
 .wrapper {
   width: 960px;
   max-width: 90%;
-  margin: 0.75em auto 0.75em;
+  margin: 0.15em auto 0.15em;
   position: relative;
 }
 ::-moz-selection {
@@ -929,7 +944,7 @@ svg.menu-icon-house {
 }
 .footer-wrapper {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items:center;
 }
 .logo-symbol {
@@ -949,9 +964,9 @@ svg.menu-icon-house {
 }
 .copyright {
   text-align: center;
-  color: var(--grey4);
+  color: #ffffff;
   font-size: 0.65em;
-  opacity: 0.75;
+  opacity: 1;
 }
 .footer-nav {
   display: flex;

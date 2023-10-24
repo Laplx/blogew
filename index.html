@@ -3,17 +3,41 @@ layout: home-page
 ---
 {% include calculate_relative_base.html %}
 
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-  {% include remove_double_slash.html %}
-  <li>
-    <div class="post-card">
-      <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image" style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
-      </a>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+<div class="landing-title">
+  <h1>Hi, I&#39;m
+    <span class="highlight-title">Laplx (Hao Chen)</span>,
+  </h1>
+  <h1>
+    <span id="txt-rotate" data-period="2000"
+      data-rotate='["this is my blog", "scroll down for more."]'
+    >
+    </span>
+  </h1>
+</div>
+
+<div class="wrapper">
+  <div class="page-content">
+    <h1>首页 Welcome</h1>
+    <p><img alt="" src="./introg.jpg" width="60%" /></p>
+    <section id="what-s-here">
+    <h2>这里有什么？What’s here?</h2>
+    <p>这里是 Laplx (Hao Chen) 的 GithubPage 博客。</p>
+    <p>我会分享我创作和收集的一些文件、课题与想法。</p>
+    <p>This is my blog. I create ideas, make studies and share informations here.</p>
+    </section>
+    <section id="want-to-contact-me">
+    <h2>怎么联系我？Want to contact me?</h2>
+    <p>邮箱 email：laplx&#64;outlook.com  <a href="/cdn-cgi/l/email-protection#d9b5b8a9b5a1fffaeaeee2fffaecebe2fffaede1e2bfb6a1b4b8b0b5fffaedefe2bab6b4">laplx<span>&#64;</span>foxmail<span>&#46;</span>com</a></p>
+    <p>单位 affiliation：复旦大学经济学院 School of Economics, Fudan University, Shanghai</p>
+    </section>
+    <section id="weekly-sentence">
+    <h2>每周一句  Weekly sentence</h2>
+    <p>荷叶生时春恨生，荷叶枯时秋恨成。<br>
+    深知身在情长在，怅望江头江水声。</p>
+    <p>—— 李商隐《暮秋独游曲江》</p>
+    </section>
+  </div>
+</div>
 
 <!--<div class="post-card-body">
         <p class="post-card-title-and-meta">
