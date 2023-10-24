@@ -1,24 +1,17 @@
 ---
 layout: post
-read_time: true
-show_date: true
 title:  Machine Learning Library in Python from scratch
-date:   2021-02-28 12:32:20 -0600
-description: Single neuron perceptron that classifies elements learning quite quickly.
-img: posts/20210228/MLLibrary.jpg 
-tags: [machine learning, coding, neural networks, python]
-author: Armando Maynez
-github: amaynez/GenericNeuralNetwork/
+img:
 ---
 It must sound crazy that in this day and age, when we have such a myriad of amazing machine learning libraries and toolkits all open sourced, all quite well documented and easy to use, I decided to create my own ML library from scratch.
-<center><img src="./assets/img/posts/20210228/ML_cloud.jpg" width="480px"></center>
+<center><img src="./ML_cloud.jpg" width="480px"></center>
 Let me try to explain; I am in the process of immersing myself into the world of Machine Learning, and to do so, I want to deeply understand the basic concepts and its foundations, and I think that there is no better way to do so than by creating myself all the code for a basic neural network library from scratch. This way I can gain in depth understanding of the math that underpins the ML algorithms.
 
 Another benefit of doing this is that since I am also learning Python, the experiment brings along good exercise for me.
 
 To call it a Machine Learning Library is perhaps a bit of a stretch, since I just intended to create a **multi-neuron, multi-layered [perceptron](./single-neuron-perceptron.html)**.
 
-<center><img src="./assets/img/posts/20210228/nnet_flow.gif"></center>
+<img src="./assets/img/posts/20210228/nnet_flow.gif">
 
 The library started very narrowly, with just the following functionality:
 - **create** a neural network based on the following parameters:
