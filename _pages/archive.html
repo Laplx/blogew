@@ -14,12 +14,10 @@ infinite: yes
 	</form>
 	<ul id="results-container" class="results-search"></ul>
 	<div class="post-list">
-	{% for post in site.posts limit: 3 %}
 		<div class="post">
 			{% include remove_double_slash.html %}
 			<a class="post-list-title" href="{{ post_url }}">{{ post.title }}</a>
 		</div>
-	{% endfor %}
 	</div>
 </div>
 {% include spinner.html %}

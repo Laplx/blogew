@@ -6,18 +6,18 @@ html {
   --accent:       #DB504A;    /* accent     */
   --accent-dark:  #4e3e51;    /* accent 2   */
   --main:         #326273;    /* main color */
-  --main-dim:     #879dab;    /* dimmed version of main color */
+  --main-dim:     #385c70;    /* dimmed version of main color */
   --text:         #2B323B;
   --grey1:        #5F5E58;
   --grey2:        #8D897C;
   --grey3:        #B4B3A7;
-  --grey4:        #DAD7D2;
+  --grey4:        #4e4c48;
   --grey5:        #F0EFED;
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
-  --font1: Microsoft YaHei UI, charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: Arial, 'Helvetica Neue', Helvetica, sans-serif; /* headers and titles   */
+  --font1: Hiragino Sans GB, Microsoft YaHei UI, charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
+  --font2: 'Helvetica Neue', Helvetica, sans-serif; /* headers and titles   */
   --font1-light:      400;
   --font1-regular:    400;
   --font1-bold:       600;
@@ -950,7 +950,7 @@ svg.menu-icon-house {
 .copyright {
   text-align: center;
   color: var(--grey4);
-  font-size: 0.6em;
+  font-size: 0.65em;
   opacity: 0.75;
 }
 .footer-nav {
