@@ -11,7 +11,7 @@ html {
   --grey1:        #5F5E58;
   --grey2:        #8D897C;
   --grey3:        #B4B3A7;
-  --grey4:        #4e4c48;
+  --grey4:        #ffffff;
   --grey5:        #F0EFED;
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
@@ -581,7 +581,7 @@ svg {
           align-items: center;
 }
 .main-header .logo {
-  width: 80%;
+  width: 50%;
   position: relative;
   text-align: center;
   color:var(--main);
@@ -929,7 +929,7 @@ svg.menu-icon-house {
 }
 .footer-wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   align-items:center;
 }
 .logo-symbol {

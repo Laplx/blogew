@@ -10,7 +10,12 @@ layout: home-page
     <div class="post-card">
       <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image" style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
       </a>
-      <div class="post-card-body">
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+
+<!--<div class="post-card-body">
         <p class="post-card-title-and-meta">
           
           <a href="{{ post_url }}" class="post-card-link">
@@ -18,8 +23,4 @@ layout: home-page
           </a>
           {% include post_meta.html type="post-card-meta" date="none" %}
         </p>
-      </div>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+      </div> 首页网格预览-->
