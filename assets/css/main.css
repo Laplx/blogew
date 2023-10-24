@@ -17,7 +17,7 @@ html {
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
   --font1: Hiragino Sans GB, Microsoft YaHei UI, charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: 'Helvetica Neue', Helvetica, sans-serif; /* headers and titles   */
+  --font2: Microsoft YaHei UI, 'Helvetica Neue', Helvetica, sans-serif; /* headers and titles   */
   --font1-light:      400;
   --font1-regular:    400;
   --font1-bold:       600;
@@ -554,21 +554,12 @@ svg {
   right: 0;
   top: 40%;
 }
-
-.landing-title {
-  left: 0;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: absolute;
-  right: 0;
-  top: 40%;
-}
 .landing-title h1 {
   font-size: 3rem;
 }
 .highlight-title {
-  color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  color: #ff073a;
+  text-shadow: 0.25rem 0.25rem 0.25rem #ff073a;
 }
 .wrapper {
   width: 960px;
