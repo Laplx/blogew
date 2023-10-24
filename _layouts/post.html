@@ -17,9 +17,6 @@ layout: default
   {% include header.html %}
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% include schema-meta.html %}
-    <div class="page-image">
-      <div class="cover-image" style="background: url('{{ relativebase }}assets/img/{{ page.img }}') center no-repeat; background-size: cover;"></div>
-    </div>
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
@@ -34,3 +31,7 @@ layout: default
   {% include search.html %}
   {% include footer.html %}
 </div>
+
+<!--<div class="page-image">
+      <div class="cover-image" style="background: url('{{ relativebase }}assets/img/{{ page.img }}') center no-repeat; background-size: cover;"></div>
+    </div> 加入推文封面图片-->
